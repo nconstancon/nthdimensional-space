@@ -1,7 +1,9 @@
 export default function App() {
   return (
     <main style={{
-      minHeight: '100vh',
+      height: '100vh',
+      boxSizing: 'border-box',
+      overflow: 'hidden',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
